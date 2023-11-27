@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="index.css" rel="stylesheet" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+        </style> 
+    </head>
+    <canvas id="canvas" width=1000 height=1000 onclick="applyChoices()"></canvas>
+    <br>
+    <button onclick="layer_system = randomLayerSystem(num_layers);"> s </button>
+    <button onclick="resetFilters()"> f </button>
+    <button onclick="togglePosterized()"> p </button>
+    <button onclick="nextRowOption()"> r </button>
+    <br>
+    <script src="built/filter.js"></script>
+    <script src="built/layer.js"></script>
+    <script src="built/global.js"></script>
+    <script src="built/manager.js"></script>
+    <script src="built/world.js"></script>
+    <script src="built/plot.js"></script>
+    <script src="built/input.js"></script>
+    <script src="built/main.js"></script>
+    
+</html>
